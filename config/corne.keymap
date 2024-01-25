@@ -34,13 +34,13 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <RIG LEF>;
-            then-layer = <TRI>;
-        };
-    };
+//    conditional_layers {
+//        compatible = "zmk,conditional-layers";
+//        tri_layer {
+//            if-layers = <RIG LEF>;
+//            then-layer = <TRI>;
+//        };
+//    };
 
 / {
         keymap {
